@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    flex-direction: column;
+    background: #28223F;
+    font-family: Montserrat, sans-serif;
+}
+.card
+{
+    position: relative;
+    width: 350px;
+    border-radius: 10px;
+    padding-top: 30px;
+    max-width: 100%;
+    color: #B3B8CD;
+    text-align: center;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.05);
+    box-shadow: 0 10px 2px -10px rgba(0, 0, 0, 0.75);
+}
+.card .pro
+{
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 3px;
+    color: #231E39;
+    padding: 3px 7px;
+    background: rgba(0, 0, 0, 0.15);
+}
+.card .img
+{
+    padding: 7px;
+    border-radius: 50%;
+    border: 1px solid #28223F;
+}
+button
+{
+    font-weight: 500;
+    border-radius: 3px;
+    border: 1px solid #0396cb;
+    padding: 10px 25px;
+    color: #028996;
+    background: transparent;
+    font-family: Monterrat, sans-serif;
+}
+button:hover
+{
+    cursor: pointer;
+    color: #231E39;
+    background: #0396cb;
+}
+h3
+{
+    margin: 10px 0;
+}
+h6
+{
+    margin: 5px 0;
+    text-transform: uppercase;
+}
+p
+{
+    font-size: 14px;
+    line-height: 21px;
+}
+.skills
+{
+    padding: 15px;
+    margin-top: 30px;
+    text-align: left;
+    font-size: 20px;
+    border-radius: 10px;
+    backdrop-filter: blur(1.5px);
+    background: rgba(255, 255, 255, 0.05);
+    box-shadow: 0 10px 20px -10px rgba(0, 0, 0, 0.75);
+}
+.skills ul
+{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.skills ul li
+{
+    padding: 7px;
+    font-size: 12px;
+    display: inline-block;
+    margin: 0 7px 7px 0;
+    border: 1px solid #2D2747;
+}
